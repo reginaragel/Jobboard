@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:root{
+    --primary-color: #2d30f3;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.title{
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.home a, .browse a, .Pages a, .Blog a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.home a:hover, .browse a:hover, .Pages a:hover, .Blog a:hover{
+    color: #0a66c2;
+}
+.entry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.login a{
+    background: #ccc;
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 3px;
+}
+.login a:hover{
+    background: #b5b4b4;
+}
+.jobpost a{
+    background: #0a66c2;
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 3px;
+}
+.jobpost a:hover{
+    background: #3381cc;
+}
+.middle{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+h3{
+    margin-right: 270px;
+}
+img{
+    display: flex;
+    width: 700px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 750px;
+}
+.select{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+.selection {
+    padding: 10px;               
+    font-size: 18px;             
+    font-weight: 500;           
+    outline: none;               
+    border: none;                
+    border-radius: 4px;         
+    background-color: #fff;      
+    width: 150px;                
+    margin-right: 20px;   
+    color: #7b7a7a;       
+}
+.select input{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    color: #7b7a7a;
+}
+.btn{
+    background: #0a66c2;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background:#3381cc;
+}
